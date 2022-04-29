@@ -27,8 +27,8 @@ export default function App() {
     );
 };
 
-const Styles = StyleSheet.create({ // A parte de estilização posso colocar em outro arquivo
-    app: {                       
+const Styles = StyleSheet.create({ // A parte de estilização costumo separar 
+    app: {                        // em outro arquivo, ficando mais organizado
         flex: 1,
         backgroundColor: "#fff",
     },
