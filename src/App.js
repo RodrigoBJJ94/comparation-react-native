@@ -24,11 +24,11 @@ export default function App() {
                 <Text style={Styles.developerText}>Desenvolvido por Rodrigo Brentano</Text>
             </View>
         </View>
-    );
-};
-
-const Styles = StyleSheet.create({ // A parte de estilização costumo separar 
-    app: {                        // em outro arquivo, ficando mais organizado
+    ); // Fiz este App de teste em único arquivo, mas costumo a separar cada componente do app
+};    // cada título, texto, botão, imagem etc. em uma pasta, com um arquivo de componente
+     // e um arquivo de css, deixo o App muito mais organizado e com melhor desempenho
+const Styles = StyleSheet.create({ 
+    app: {                        
         flex: 1,
         backgroundColor: "#fff",
     },
